@@ -1,5 +1,5 @@
 language: ruby
-
+virt: lxd
 import:
   - travis-ci/build-configs:db-setup.yml
 
