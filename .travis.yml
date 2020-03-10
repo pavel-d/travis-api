@@ -1,5 +1,6 @@
 language: ruby
 virt: lxd
+dist: bionic
 import:
   - travis-ci/build-configs:db-setup.yml
 
