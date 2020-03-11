@@ -25,6 +25,9 @@ services:
   - redis-server
 
 before_install:
+  - curl https://github.com
+  - curl https://rubygems.org/
+  - curl https://8.8.8.8/
   - 'gem update --system'
 
 jobs:
